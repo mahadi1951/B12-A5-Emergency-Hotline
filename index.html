@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- tailwind link -->
      <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <script src="https://cdn.tailwindcss.com"></script>
+
     <title>Emergency Hotline</title>
 </head>
-<body class="w-6xl mx-auto">
+<body class="w-6xl mx-auto px-4">
     <header>
         <nav>
             <div class="flex justify-between">
@@ -19,14 +20,14 @@
              <div class="flex gap-2.5">
                 <div class="flex">
               <div class="flex justify-center  items-center gap-2.5 px-8 py-1 bg-[#ecfff0]  rounded-3xl ">
-                <h4 id="hartCount" class=" text-lg sm:text-xl lg:text-2xl font-semibold">0</h3>
+                <h4 id="hartCount" class=" text-lg sm:text-xl lg:text-2xl font-semibold">0</h4>
                 <img class="w-[30px] h-[30px]" src="assets/heart.png" alt="#">
               </div>
            
               </div>
              <div class="flex">
               <div class="flex justify-center  items-center gap-2.5 px-8 py-1 bg-[#ecfff0]  rounded-3xl ">
-                <h4 id="coinCount"class=" text-lg sm:text-xl lg:text-2xl font-semibold">100</h3>
+                <h4 id="coinCount"class=" text-lg sm:text-xl lg:text-2xl font-semibold">100</h4>
                 <img class="w-[30px] h-[30px]" src="assets/coin.png" alt="#">
               </div>
            
@@ -34,7 +35,7 @@
              <div class="flex">
               <div class="flex justify-center  items-center gap-2.5 px-8 py-1 bg-[#00a63e]  rounded-3xl ">
                
-                <h4 class="text-lg sm:text-xl lg:text-2xl font-semibold">  <span id="copyCount">0</span> copy</h3>
+                <h4 class="text-lg sm:text-xl lg:text-2xl font-semibold">  <span id="copyCount">0</span> copy</h4>
                 
               </div>
            
@@ -62,18 +63,18 @@
            <img class="hartBtn w-[24px] h-[24px] " src="assets/whitelove.png" alt="#">
          </div>
         </div>
-        <h class=" font-bold text-[24px] ">National Emergency Number</h>
+        <h1 class=" font-bold text-[24px] ">National Emergency <br> Number</h1>
         <p class="text-xl mt-2.5">National Emergency</p>
         <p class="font-bold text-3xl mt-4">999</p>
         <button class="px-4 py-1.5 bg-gray-200 rounded-4xl mt-2.5">All</button>
         <div class="flex gap-2.5 mt-5">
-          <button class="flex flex-row items-center justify-center  border-[1px] rounded-xl gap-2.5 w-[180px] h-[40px]">
+          <button class="flex flex-row items-center justify-center  border-[1px] rounded-xl gap-2.5 w-[180px] h-[40px] copyBtn">
             <img class="w-[16px] h-[16px]" src="assets/copy.png" alt="    ">
-            <p class="copyBtn">copy</p>
+            <p class="">copy</p>
           </button>
-          <button class="flex flex-row items-center justify-center p-4  rounded-xl gap-2.5 w-[180px] h-[40px] bg-[#00a63e]">
+          <button class="flex flex-row items-center justify-center p-4  rounded-xl gap-2.5 w-[180px] h-[40px] bg-[#00a63e] callBtn">
             <img class="w-[16px] h-[16px]" src="assets/whitecall.png" alt="    ">
-          <p id="callBtn" class=" text-white">call</p>
+          <p  class=" text-white">call</p>
           </button>
         </div>
           
@@ -87,18 +88,18 @@
            <img class="hartBtn w-[24px] h-[24px] " src="assets/whitelove.png" alt="#">
          </div>
         </div>
-        <h class=" font-bold text-[24px] ">Police Helpline Number</h>
+        <h1 class=" font-bold text-[24px] ">Police Helpline <br>Number</h1>
         <p class="text-xl mt-2.5">Police</p>
         <p class="font-bold text-3xl mt-4">999</p>
         <button class="px-4 py-1.5 bg-gray-200 rounded-4xl mt-2.5">Police</button>
         <div class="flex gap-2.5 mt-5">
-          <button class="flex flex-row items-center justify-center  border-[1px] rounded-xl gap-2.5 w-[180px] h-[40px]">
+          <button class="flex flex-row items-center justify-center  border-[1px] rounded-xl gap-2.5 w-[180px] h-[40px] copyBtn">
             <img class="w-[16px] h-[16px]" src="assets/copy.png" alt="    ">
-            <p class="copyBtn">copy</p>
+            <p class="">copy</p>
           </button>
-          <button class="flex flex-row items-center justify-center p-4  rounded-xl gap-2.5 w-[180px] h-[40px] bg-[#00a63e]">
+          <button class="flex flex-row items-center justify-center p-4  rounded-xl gap-2.5 w-[180px] h-[40px] bg-[#00a63e] callBtn">
             <img class="w-[16px] h-[16px]" src="assets/whitecall.png" alt="    ">
-          <p class="text-white">call</p>
+          <p class=" text-white">call</p>
           </button>
         </div>
           
@@ -112,18 +113,18 @@
            <img class="w-[24px] h-[24px] hartBtn" src="assets/whitelove.png" alt="#">
          </div>
         </div>
-        <h class=" font-bold text-[24px] ">Fire Service Number</h>
+        <h1 class=" font-bold text-[24px] ">Fire Service <br> Number</h1>
         <p class="text-xl mt-2.5">Fire Services</p>
         <p class="hotline font-bold text-3xl mt-4">999</p>
         <button class="px-4 py-1.5 bg-gray-200 rounded-4xl mt-2.5">Fire</button>
         <div class="flex gap-2.5 mt-5">
-          <button class="flex flex-row items-center justify-center  border-[1px] rounded-xl gap-2.5 w-[180px] h-[40px]">
+          <button class="flex flex-row items-center justify-center  border-[1px] rounded-xl gap-2.5 w-[180px] h-[40px] copyBtn">
             <img class="w-[16px] h-[16px]" src="assets/copy.png" alt="    ">
-            <p  class="copyBtn">copy</p>
+            <p  class="">copy</p>
           </button>
-          <button class="flex flex-row items-center justify-center p-4  rounded-xl gap-2.5 w-[180px] h-[40px] bg-[#00a63e]">
+          <button class="flex flex-row items-center justify-center p-4  rounded-xl gap-2.5 w-[180px] h-[40px] bg-[#00a63e] callBtn">
             <img class="w-[16px] h-[16px]" src="assets/whitecall.png" alt="    ">
-          <p class="text-white">call</p>
+          <p class=" text-white">call</p>
           </button>
         </div>
           
@@ -137,18 +138,18 @@
            <img class="w-[24px] h-[24px] hartBtn" src="assets/whitelove.png" alt="#">
          </div>
         </div>
-        <h class=" font-bold text-[24px] ">Ambulance Service </h>
+        <h1 class=" font-bold text-[24px] ">Ambulance <br> Service </h1>
         <p class="text-xl mt-2.5">Ambulance Service</p>
         <p class="font-bold text-3xl mt-4">999</p>
         <button class="px-4 py-1.5 bg-gray-200 rounded-4xl mt-2.5">Fire</button>
         <div class="flex gap-2.5 mt-5">
-          <button class="flex flex-row items-center justify-center  border-[1px] rounded-xl gap-2.5 w-[180px] h-[40px]">
+          <button class="flex flex-row items-center justify-center  border-[1px] rounded-xl gap-2.5 w-[180px] h-[40px] copyBtn">
             <img class="w-[16px] h-[16px]" src="assets/copy.png" alt="    ">
-            <p class="copyBtn">copy</p>
+            <p class="">copy</p>
           </button>
-          <button class="flex flex-row items-center justify-center p-4  rounded-xl gap-2.5 w-[180px] h-[40px] bg-[#00a63e]">
+          <button class="flex flex-row items-center justify-center p-4  rounded-xl gap-2.5 w-[180px] h-[40px] bg-[#00a63e] callBtn">
             <img class="w-[16px] h-[16px]" src="assets/whitecall.png" alt="    ">
-          <p class="text-white">call</p>
+          <p class=" text-white">call</p>
           </button>
         </div>
           
@@ -162,18 +163,18 @@
            <img class="w-[24px] h-[24px] hartBtn" src="assets/whitelove.png" alt="#">
          </div>
         </div>
-        <h class=" font-bold text-[24px] ">Anti-Corruption Helpline</h>
+        <h1 class=" font-bold text-[24px] ">Anti-Corruption <br>Helpline</h1>
         <p class="text-xl mt-2.5">Anti-Corruption</p>
         <p class="font-bold text-3xl mt-4">999</p>
         <button class="px-4 py-1.5 bg-gray-200 rounded-4xl mt-2.5">Fire</button>
         <div class="flex gap-2.5 mt-5">
-          <button class="flex flex-row items-center justify-center  border-[1px] rounded-xl gap-2.5 w-[180px] h-[40px]">
+          <button class="flex flex-row items-center justify-center  border-[1px] rounded-xl gap-2.5 w-[180px] h-[40px] copyBtn">
             <img class="w-[16px] h-[16px]" src="assets/copy.png" alt="    ">
-            <p class="copyBtn">copy</p>
+            <p class="">copy</p>
           </button>
-          <button class="flex flex-row items-center justify-center p-4  rounded-xl gap-2.5 w-[180px] h-[40px] bg-[#00a63e]">
+          <button class="flex flex-row items-center justify-center p-4  rounded-xl gap-2.5 w-[180px] h-[40px] bg-[#00a63e] callBtn">
             <img class="w-[16px] h-[16px]" src="assets/whitecall.png" alt="    ">
-          <p class="text-white">call</p>
+          <p class=" text-white">call</p>
           </button>
         </div>
           
@@ -187,18 +188,18 @@
            <img class="w-[24px] h-[24px] hartBtn" src="assets/whitelove.png" alt="#">
          </div>
         </div>
-        <h class=" font-bold text-[24px] ">Women & Child Helpliner</h>
+        <h1 class=" font-bold text-[24px] ">Women & Child <br>Helpliner</h1>
         <p class="text-xl mt-2.5">Women & Child Helpline</p>
         <p class="font-bold text-3xl mt-4">999</p>
         <button class="px-4 py-1.5 bg-gray-200 rounded-4xl mt-2.5">Fire</button>
         <div class="flex gap-2.5 mt-5">
-          <button class="flex flex-row items-center justify-center  border-[1px] rounded-xl gap-2.5 w-[180px] h-[40px]">
+          <button class="flex flex-row items-center justify-center  border-[1px] rounded-xl gap-2.5 w-[180px] h-[40px] copyBtn">
             <img class="w-[16px] h-[16px]" src="assets/copy.png" alt="    ">
-            <p class="copyBtn">copy</p>
+            <p class="">copy</p>
           </button>
-          <button class="flex flex-row items-center justify-center p-4  rounded-xl gap-2.5 w-[180px] h-[40px] bg-[#00a63e]">
+          <button class="flex flex-row items-center justify-center p-4  rounded-xl gap-2.5 w-[180px] h-[40px] bg-[#00a63e] callBtn">
             <img class="w-[16px] h-[16px]" src="assets/whitecall.png" alt="    ">
-          <p class="text-white">call</p>
+          <p class=" text-white">call</p>
           </button>
         </div>
           
@@ -212,18 +213,18 @@
            <img class="w-[24px] h-[24px] hartBtn" src="assets/whitelove.png" alt="#">
          </div>
         </div>
-        <h class=" font-bold text-[24px] ">Electricity Helpline</h>
+        <h1 class=" font-bold text-[24px] ">Electricity <br>Helpline</h1>
         <p class="text-xl mt-2.5">Electricity Outage</p>
         <p class="font-bold text-3xl mt-4">16216</p>
         <button class="px-4 py-1.5 bg-gray-200 rounded-4xl mt-2.5">Electricity</button>
         <div class="flex gap-2.5 mt-5">
-          <button class="flex flex-row items-center justify-center  border-[1px] rounded-xl gap-2.5 w-[180px] h-[40px]">
+          <button class="flex flex-row items-center justify-center  border-[1px] rounded-xl gap-2.5 w-[180px] h-[40px] copyBtn">
             <img class="w-[16px] h-[16px]" src="assets/copy.png" alt="    ">
-            <p class="copyBtn">copy</p>
+            <p class="">copy</p>
           </button>
-          <button class="flex flex-row items-center justify-center p-4  rounded-xl gap-2.5 w-[180px] h-[40px] bg-[#00a63e]">
+          <button class="flex flex-row items-center justify-center p-4  rounded-xl gap-2.5 w-[180px] h-[40px] bg-[#00a63e] callBtn">
             <img class="w-[16px] h-[16px]" src="assets/whitecall.png" alt="    ">
-          <p class="text-white">call</p>
+          <p class=" text-white">call</p>
           </button>
         </div>
           
@@ -237,18 +238,18 @@
            <img class="w-[24px] h-[24px] hartBtn" src="assets/whitelove.png" alt="#">
          </div>
         </div>
-        <h class=" font-bold text-[24px] ">Brac Helpline</h>
+        <h1 class=" font-bold text-[24px] ">Brac <br>Helpline</h1>
         <p class="text-xl mt-2.5">Brac</p>
         <p class="font-bold text-3xl mt-4">16445</p>
         <button class="px-4 py-1.5 bg-gray-200 rounded-4xl mt-2.5">NGO</button>
         <div class="flex gap-2.5 mt-5">
-          <button class="flex flex-row items-center justify-center  border-[1px] rounded-xl gap-2.5 w-[180px] h-[40px]">
+          <button class="flex flex-row items-center justify-center  border-[1px] rounded-xl gap-2.5 w-[180px] h-[40px] copyBtn">
             <img class="w-[16px] h-[16px]" src="assets/copy.png" alt="    ">
-            <p class="copyBtn">copy</p>
+            <p class="">copy</p>
           </button>
-          <button class="flex flex-row items-center justify-center p-4  rounded-xl gap-2.5 w-[180px] h-[40px] bg-[#00a63e]">
+          <button class="flex flex-row items-center justify-center p-4  rounded-xl gap-2.5 w-[180px] h-[40px] bg-[#00a63e] callBtn">
             <img class="w-[16px] h-[16px]" src="assets/whitecall.png" alt="    ">
-          <p class="text-white">call</p>
+          <p class=" text-white">call</p>
           </button>
         </div>
           
@@ -262,18 +263,18 @@
            <img class="w-[24px] h-[24px] hartBtn" src="assets/whitelove.png" alt="#">
          </div>
         </div>
-        <h class=" font-bold text-[24px] ">Bangladesh Railway Helpline </h>
+        <h1 class=" font-bold text-[24px] ">Bangladesh Railway <br>Helpline </h1>
         <p class="text-xl mt-2.5">Bangladesh Railway</p>
         <p class="font-bold text-3xl mt-4">163</p>
         <button class="px-4 py-1.5 bg-gray-200 rounded-4xl mt-2.5">Travel</button>
         <div class="flex gap-2.5 mt-5">
-          <button class="flex flex-row items-center justify-center  border-[1px] rounded-xl gap-2.5 w-[180px] h-[40px]">
+          <button class="flex flex-row items-center justify-center  border-[1px] rounded-xl gap-2.5 w-[180px] h-[40px] copyBtn">
             <img class="w-[16px] h-[16px]" src="assets/copy.png" alt="    ">
-            <p class="copyBtn">copy</p>
+            <p class="">copy</p>
           </button>
-          <button class="flex flex-row items-center justify-center p-4  rounded-xl gap-2.5 w-[180px] h-[40px] bg-[#00a63e]">
+          <button class="flex flex-row items-center justify-center p-4  rounded-xl gap-2.5 w-[180px] h-[40px] bg-[#00a63e] callBtn">
             <img class="w-[16px] h-[16px]" src="assets/whitecall.png" alt="    ">
-          <p class="text-white">call</p>
+          <p class=" text-white">call</p>
           </button>
         </div>
           
@@ -287,10 +288,12 @@
         <div class="flex justify-between">
           <div class="flex items-center ml-3.5">
             <img  class="w-[24px] h-[24px]" src="assets/watch.png" alt="#006747">
-            <h class="font-medium text-[20px] ml-2">Call History</h>
+            <h2 class="font-medium text-[20px] ml-2">Call History</h2>
           </div>
           <button class="px-6 py-3 bg-[#00a63e]  rounded-3xl font-semibold text-[24px]">Clear</button>
         </div>
+         <div id="callHistoryContainer" class="mt-4 max-h-[400px] overflow-y-auto"></div>
+         </div>
 
 
 
