@@ -1,17 +1,26 @@
-console.log('mahadi');
+// console.log('mahadi');
+// copy counter
 let copyCounter = 0;
-let copyCounterAll = document.getElementById('copyCount')
-const copyBtns = document.querySelectorAll('.copyBtn');
 
-copyBtns.forEach(btn =>{
-    btn.addEventListener('clink', function(){
-        const parentDiv = this.parentElement;
-        let number = parentDiv.querySelector('.hotline').innerText;
-        navigator.clipboard.writeText(number);
-        copyCounter++;
-        copyCounterAll.innerText = copyCounter;
+const copyButtons = document.querySelectorAll(".copyBtn");
 
-        // alart
-        alert('Number copied:' + number);
+copyButtons.forEach((btn) => {
+  btn.addEventListener("click", function () {
+    copyCounter++;
+    document.getElementById("copyCount").innerText = copyCounter;
+  });
+});
+
+// hart counter 
+let hartCounter = 0;
+
+const hartButtons = document.querySelectorAll('.hartBtn');
+
+hartButtons.forEach((btn) => {
+    btn.addEventListener('click', function () {
+        hartCounter++;
+        document.getElementById('hartCount').innerText = hartCounter;
     })
 })
+
+// coin part
